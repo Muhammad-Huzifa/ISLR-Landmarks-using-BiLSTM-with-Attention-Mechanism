@@ -16,17 +16,19 @@ A **BiLSTM (Bidirectional LSTM)** network combined with an **Attention Mechanism
 ---
 
 ## 🏗️ Project Structure
+```plaintext
 ISLR-Landmarks-using-BiLSTM-with-Attention-Mechanism/
 │
 ├── src/
-│ ├── landmarks_Extraction.ipynb # Extracts pose landmarks using MediaPipe
-│ ├── training_100 Classes.ipynb # Training notebook for 100-class dataset
-│ └── training_300 Classes.ipynb # Training notebook for 300-class dataset
+│   ├── landmarks_Extraction.ipynb     # Extracts pose landmarks using MediaPipe
+│   ├── training_100 Classes.ipynb     # Training notebook for 100-class dataset
+│   └── training_300 Classes.ipynb     # Training notebook for 300-class dataset
 │
-├── data/ # Dataset folder (optional, ignored by .gitignore)
-├── requirements.txt # Dependencies list
-├── .gitignore # Ignore unnecessary files
-└── README.md # Project documentation
+├── data/                              # Dataset folder (optional, ignored by .gitignore)
+├── requirements.txt                   # Dependencies list
+├── .gitignore                         # Ignore unnecessary files
+└── README.md                          # Project documentation
+```
 ---
 
 ## ⚙️ Installation
